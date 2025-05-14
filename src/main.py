@@ -1,6 +1,7 @@
 import argparse
 from repositorio_procesos import RepositorioProcesos
-from scheduler import FCFSScheduler, RoundRobinScheduler
+from fcfs_scheduler import FCFSScheduler
+from round_robin_scheduler import RoundRobinScheduler
 from metrics import calcular_metricas
 from proceso import Proceso
 

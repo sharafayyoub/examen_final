@@ -1,6 +1,7 @@
 import pytest
 from proceso import Proceso
-from scheduler import FCFSScheduler, RoundRobinScheduler
+from fcfs_scheduler import FCFSScheduler
+from round_robin_scheduler import RoundRobinScheduler
 
 def test_fcfs_scheduler():
     procesos = [
